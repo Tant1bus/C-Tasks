@@ -8,6 +8,9 @@ private:
     char surname[51];
     int hp; 
     int energy;
+    int iq;
+    int sanity;
+    int excitement;
     void change_field(int &field, int delta);
 public:
     void start_game();
@@ -15,4 +18,7 @@ public:
     void show();
     void eat();
     void wait();
+    void study();
+    void sleep();
+    void watch_tv();
 };
